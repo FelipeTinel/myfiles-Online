@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+    <meta charset="UTF-8">
+    <title>{{ user }} profile - myfilesOnline</title>
+
+    </head>
+
+
+    <html>
+
+        <header>
+
+            <h1><strong>Welcome back, {{ user }}!</strong></h1>
+
+        </header>
+
+        <main>
+
+            <section>
+                <h2>Your files:</h2>
+
+                <form>
+
+                    <select name="your_files" id="showFile_button"> 
+                       <option value="file1">First file</option>
+                       <option value="file2">Second file</option>
+                       <option value="file3">Third file</option>
+                    </select>
+
+                </form>
+            </section>
+            
+            <section>
+
+                <h2>Upload files:</h2>
+
+                <form>
+                    <input type="file" id="file_button" name="file_upload">
+                </form>
+
+            </section>
+
+
+        </main>
+
+        <footer>
+
+            <a href="{{ url_for('homepage') }}">Leave</a>
+
+        </footer>
+
+
+    </html> 
