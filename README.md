@@ -12,10 +12,10 @@
 <br>
 
 ## - 🌐 About the project:
+<br>
 
 MyFiles Online is a cloud file manager that allows the users save their files on a database via web. Our main objective with this aplication is learn about web development, software architecture and teamwork. For now, it still in development, but we are constantly updating and improving it.
 
 We're just added some features, but we are still thinking and planning many others that will help us learn more technologies in the future.
-
 
 
